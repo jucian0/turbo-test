@@ -9,10 +9,10 @@ This Turborepo includes the following:
 ### Apps and Packages
 
 - `docs`: A placeholder documentation site powered by [Next.js](https://nextjs.org/)
-- `@acme/core`: core React components
-- `@acme/utils`: shared React utilities
-- `@acme/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
-- `eslint-config-acme`: ESLint preset
+- `@jucian0/core`: core React components
+- `@jucian0/utils`: shared React utilities
+- `@jucian0/tsconfig`: shared `tsconfig.json`s used throughout the monorepo
+- `eslint-config-jucian0`: ESLint preset
 
 Each package and app is 100% [TypeScript](https://www.typescriptlang.org/).
 
@@ -45,10 +45,10 @@ git init . && git add . && git commit -m "Init"
 
 ### Changing the npm organization scope
 
-The npm organization scope for this design system starter is `@acme`. To change this, it's a bit manual at the moment, but you'll need to do the following:
+The npm organization scope for this design system starter is `@jucian0`. To change this, it's a bit manual at the moment, but you'll need to do the following:
 
-- Rename folders in `packages/*` to replace `acme` with your desired scope
-- Search and replace `acme` with your desired scope
+- Rename folders in `packages/*` to replace `jucian0` with your desired scope
+- Search and replace `jucian0` with your desired scope
 - Re-run `yarn install`
 
 ## Versioning and Publishing packages
