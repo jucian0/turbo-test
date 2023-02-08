@@ -5,7 +5,7 @@ export interface ButtonProps {
 }
 
 export function Button(props: ButtonProps) {
-  return <button className="juciano-test-00">{props.children}</button>;
+  return <button className="juciano-test-01">{props.children}</button>;
 }
 
 Button.displayName = "Button";
