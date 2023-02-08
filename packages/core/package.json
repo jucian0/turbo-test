@@ -18,12 +18,17 @@
   "devDependencies": {
     "@jucian0/tsconfig": "workspace:*",
     "eslint": "^7.32.0",
-    "eslint-config-jucian0": "workspace:*",
     "@types/react": "^17.0.13",
     "@types/react-dom": "^17.0.8",
     "react": "^17.0.2",
     "tsup": "^5.10.1",
-    "typescript": "^4.5.3"
+    "typescript": "^4.5.3",
+
+
+        "eslint-config-next": "latest",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-config-turbo": "latest"
   },
   "publishConfig": {
     "access": "public"

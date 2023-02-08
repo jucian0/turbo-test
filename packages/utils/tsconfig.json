@@ -1,5 +1,0 @@
-{
-  "extends": "@jucian0/tsconfig/react-library.json",
-  "include": ["."],
-  "exclude": ["dist", "build", "node_modules"]
-}
